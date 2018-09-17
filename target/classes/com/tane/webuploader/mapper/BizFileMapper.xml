@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tane.webuploader.mapper.BizFileMapper">
+	<!--表名 -->
+	<sql id="tableName">
+		biz_file
+	</sql>
+	
+	<!-- 字段 -->
+	<sql id="Field">
+		URL,NAME,ID,SIZE,TYPE,CREATE_TIME
+	</sql>	
+	
+	<sql id="FieldValue">
+	#{url},#{name},#{id},#{size},#{type},#{createTime}
+	</sql>
+	
+	<!-- resultMap 全局 -->
+	<resultMap type="bizFile" id="allResultMap">
+		<id column="ID_AUTO" property="idAuto"/>
+		<result column="URL" property="url"/>
+		<result column="NAME" property="name"/>
+		<result column="ID" property="id"/>
+		<result column="SIZE" property="size"/>
+		<result column="TYPE" property="type"/>
+		<result column="CREATE_TIME" property="createTime"/>
+	</resultMap>
+	
+	<insert id="save" parameterType="com.tane.webuploader.entity.BizFile">
+		insert into <include refid="tableName"></include>
+		(<include refid="Field"></include>) 
+		values(<include refid="FieldValue"></include>)
+	</insert>
+	
+	<select id="queryList" resultMap="allResultMap">
+		select * from 
+		<include refid="tableName"></include> 
+		where 1=1 
+		 order by CREATE_TIME  desc
+		 limit 0,4
+	</select>
+	
+</mapper>

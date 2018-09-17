@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="webuploader-demo"
+  id="myeclipse.1481606017729"
+  context-root="/webuploader-demo"
+  j2ee-spec="1.7"
+  archive="webuploader-demo.war">
+  <attributes>
+    <attribute name="webrootdir" value="src/main/webapp" />
+  </attributes>
+</project-module>
+

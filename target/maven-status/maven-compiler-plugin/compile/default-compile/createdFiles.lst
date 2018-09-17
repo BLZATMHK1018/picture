@@ -1,0 +1,12 @@
+com\tane\webuploader\mapper\BizFileMapper.class
+com\tane\webuploader\entity\BizFile.class
+com\tane\utils\DateUtils.class
+com\tane\utils\StringUtils.class
+com\tane\webuploader\service\BizFileServiceImpl.class
+com\tane\webuploader\service\BizFileService.class
+com\tane\utils\ThumbnailatorUtils.class
+com\tane\utils\FileUtils.class
+com\tane\webuploader\controller\BizFileController.class
+com\tane\webuploader\controller\MainController.class
+com\tane\base\BaseAction.class
+com\tane\utils\ImageZoomUtils.class

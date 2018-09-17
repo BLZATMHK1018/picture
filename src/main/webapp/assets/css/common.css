@@ -1,0 +1,37 @@
+body{
+	padding:0px;
+	margin: 0px;
+
+  	}
+.head {
+	height: 80px;
+	width:100%;
+	line-height: 80px;
+	text-align: center;
+	font-size: 28px;
+	background-color: rgba(224, 224, 224, 0.72);
+}
+
+.content{
+	
+	margin: 20px;
+	
+}
+.content ul {
+	list-style: none;
+	
+}
+.content ul li{
+	list-style: none;
+	width:50%;
+	float:left;
+	
+}
+
+.middle {
+	margin:0px auto;
+}
+
+.uploder-container{
+	margin: 20px;
+}
