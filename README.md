@@ -5,7 +5,8 @@ java web
 (2)图片压缩
 采用thumbnailator插件压缩图片。
 
-（3）效果图如下
+(3)效果图如下
+
 ![Image ](https://raw.githubusercontent.com/ZhangFen1018/picture/master/github_images/%E5%8D%95%E4%BE%8B%E4%B8%8A%E4%BC%A0.png)
 
 ![Image ](https://raw.githubusercontent.com/ZhangFen1018/picture/master/github_images/%E5%8D%95%E4%BE%8B%E5%9B%9E%E6%98%BE.png)
