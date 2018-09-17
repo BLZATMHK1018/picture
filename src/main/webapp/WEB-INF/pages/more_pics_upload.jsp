@@ -15,7 +15,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 </head>
 <body>
     <div id="wrapper">
-        <div id="container">
+        <div id="container" style="margin: 0 auto ;width:600px">
             <!--头部，相册选择和格式选择-->
 
             <div id="uploader">

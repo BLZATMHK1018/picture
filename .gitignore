@@ -1,0 +1,9 @@
+/target/
+/*.class
+target/tomcat/logs/access_log.2018-09-14
+target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+*.class
+*.class
+target/classes/com/tane/utils/FileUtils.class
+src/main/webapp/WEB-INF/pages/more_pics_upload.jsp
+target/tomcat/logs/access_log.2018-09-14
